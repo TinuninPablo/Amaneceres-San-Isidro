@@ -1,0 +1,132 @@
+/*MEDIA QUERIES*/
+@media screen and (max-width: 1243px){
+
+    /*GALERIA*/
+
+    .imgContainer{
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        
+}
+/*ubicación*/
+.map{
+    display: block;
+    width:90% ;
+    height:900px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 12px;
+}
+}
+
+@media screen and (max-width: 768px){
+    /*HEADER*/
+   
+    .headerNav ul li {
+        display: inline-block;
+        margin-right: 90px;
+        list-style: none;
+    }
+    /*GALERIA*/
+
+.imgContainer{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+        /*CONTACTO*/
+
+    .contactoImg{
+        display: none;
+    
+    }
+    /*ubicación*/
+    .map{
+        display: block;
+        width:90% ;
+        height:500px;
+        margin-left:auto;
+        margin-right:auto;
+        border-radius: 12px;
+    }
+
+}
+@media screen and (max-width: 576px){
+    /*HEADER*/
+    .header{
+        background-color: rgb(138, 91, 10);
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    } 
+    .header a {
+        color: white;
+        text-decoration: none;
+        & img{
+            position: relative;
+            height:80px;
+            padding: 10px;
+        }
+    }
+    .headerNav{
+        display: flex;
+        flex-flow: row;
+        & ul li {
+            display: inline-block;
+            margin-right: 20px;
+            margin-top: 5%;
+            list-style: none;
+        }
+    }
+    
+    /*CONTENIDO DE LA PÁGINA*/
+    .sectionVideo{
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 380px;
+        margin-left:auto;
+        margin-right:auto;
+        border-radius: 15px;
+        overflow:hidden ;
+    }
+    .round{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-style: solid;
+        border-radius: 16px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*GALERIA*/
+    .imgContainer{
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    }
+    
+    @media screen and (max-width: 467px){
+        /*UBICACIÓN*/
+        header:disabled
+        .map{
+            display: block;
+            width:90% ;
+            height:300px;
+            margin-left:auto;
+            margin-right:auto;
+            border-radius: 12px;
+        }
+        
+    }

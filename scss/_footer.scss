@@ -1,0 +1,24 @@
+/*FOOTER*/
+
+.footer{
+    background-color: rgba(231, 163, 46, 0.384);
+    border-radius: 12px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    &Container{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row wrap;
+    }
+}
+.cliente{
+    display: inline-block;
+    margin-left: 15px;
+}
+.yo{
+    display: inline-block;
+    margin-right: 15px ;
+}

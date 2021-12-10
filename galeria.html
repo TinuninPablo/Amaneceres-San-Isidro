@@ -12,27 +12,45 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <header class="header" >
-        <a href="./index.html">
-            <img src="./multimedia/logo.jpg" alt="Logo de Amaneceres de San Isidro">
-        </a>
+  <header>
         
-        <nav class="headerNav">
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="ubicacion.html">Ubicación </a></li>
-                <li><a href="galeria.html">Galeria</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-
-
-
-    </header>
+    <nav class="navbar navbar-light" style="background-color: rgb(138, 91, 10)">
+ <div class="container-fluid">
+    <a class="navbar-brand" href="./index.html"><img src="./multimedia/logo.jpg" alt="Logo de Amaneceres de San Isidro"></a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="offcanvas offcanvas-end header color" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+        <li class="nav-item">
+            <a class="nav-link active center" aria-current="page" href="/index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./ubicacion.html">Ubicación</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="./galeria.html">Galeria</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="./contacto.html">Contacto</a>
+          </li>
+      </ul>
+      </form>
+    </div>
+  </div>
+ </div>
+ </nav>
+    
+</header>
     <section>
         <h1>Estas son nuestras cabañas</h1>
         <h2 class="h2Border">Interiores</h2>
@@ -41,28 +59,28 @@
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="multimedia/interiores/1.jpeg" class="d-block imgContainer" alt="...">
+                <img src="multimedia/interiores/1.jpeg" class="d-block imgContainer" alt="Imagen del Interior">
               </div>
               <div class="carousel-item">
-                <img src="multimedia/interiores/2.jpeg" class="d-block imgContainer" alt="...">
+                <img src="multimedia/interiores/2.jpeg" class="d-block imgContainer" alt="Imagen del Interior">
               </div>
               <div class="carousel-item">
-                <img src="multimedia/interiores/3.jpeg" class="d-block imgContainer" alt="...">
+                <img src="multimedia/interiores/3.jpeg" class="d-block imgContainer" alt="Imagen del Interior">
               </div>  
               <div class="carousel-item ">
-                <img src="multimedia/interiores/4.jpeg" class="d-block imgContainer" alt="...">
+                <img src="multimedia/interiores/4.jpeg" class="d-block imgContainer" alt="Imagen del Interior">
               </div>
               <div class="carousel-item">
-                <img src="multimedia/interiores/5.jpeg" class="d-block imgContainer" alt="...">
+                <img src="multimedia/interiores/5.jpeg" class="d-block imgContainer" alt="Imagen del Interior">
               </div>
               <div class="carousel-item">
-                <img src="multimedia/interiores/6.jpeg" class="d-block imgContainer" alt="...">
+                <img src="multimedia/interiores/6.jpeg" class="d-block imgContainer" alt="Imagen del Interior">
               </div>  
               <div class="carousel-item">
-                <img src="multimedia/interiores/7.jpeg" class="d-block imgContainer" alt="...">
+                <img src="multimedia/interiores/7.jpeg" class="d-block imgContainer" alt="Imagen del Interior">
               </div>
               <div class="carousel-item">
-                <img src="multimedia/interiores/8.jpeg" class="d-block imgContainer" alt="...">
+                <img src="multimedia/interiores/8.jpeg" class="d-block imgContainer" alt="Imagen del Interior">
               </div>  
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -75,17 +93,6 @@
             </button>
         
           </div>
-
-      <!-- <div class="imgContainer">
-             <img class="img" src="multimedia/interiores/1.jpeg" alt="imagen del interior de la cabaña">
-             <img class="img" src="multimedia/interiores/2.jpeg" alt="imagen del interior de la cabaña">
-             <img class="img" src="multimedia/interiores/3.jpeg" alt="imagen del interior de la cabaña">
-             <img class="img" src="multimedia/interiores/4.jpeg" alt="imagen del interior de la cabaña">
-             <img class="img" src="multimedia/interiores/5.jpeg" alt="imagen del interior de la cabaña">
-             <img class="img" src="multimedia/interiores/6.jpeg" alt="imagen del interior de la cabaña">
-             <img class="img" src="multimedia/interiores/7.jpeg" alt="imagen del interior de la cabaña">
-             <img class="img" src="multimedia/interiores/8.jpeg" alt="imagen del interior de la cabaña">
-        </div> -->
     
         <h2 class="h2Border">Exteriores</h2>
        
@@ -159,29 +166,6 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-
-
-       <!-- <div class="imgContainer">
-            <img class="img" src="multimedia/exteriores/1.jpeg" alt="imagen del exteriorr de la cabaña">
-            <img class="img" src="multimedia/exteriores/3.jpeg" alt="imagen del exteriorr de la cabaña">
-            <img class="img" src="multimedia/exteriores/5.jpeg" alt="imagen del exteriorr de la cabaña">
-            <img class="img" src="multimedia/exteriores/6.jpeg" alt="imagen del exteriorr de la cabaña">
-            <img class="img" src="multimedia/exteriores/7.jpeg" alt="imagen del exteriorr de la cabaña">
-            <img class="img" src="multimedia/exteriores/8.jpeg" alt="imagen del exteriorr de la cabaña">
-            <img class="img" src="multimedia/exteriores/9.jpeg" alt="imagen del exteriorr de la cabaña">
-            <img class="img" src="multimedia/exteriores/10.jpeg" alt="imagen del exteriorr de la cabaña">
-            <img class="img" src="multimedia/exteriores/11.jpeg" alt="imagen del exteriorr de la cabaña">
-            <img class="img" src="multimedia/exteriores/12.jpeg" alt="imagen del exteriorr de la cabaña">
-            <img class="img" src="multimedia/exteriores/13.jpeg" alt="imagen del exteriorr de la cabaña">
-            <img class="img" src="multimedia/exteriores/14.jpeg" alt="imagen del exteriorr de la cabaña">
-            <img class="img" src="multimedia/exteriores/15.jpeg" alt="imagen del exteriorr de la cabaña">
-            <img class="img" src="multimedia/exteriores/16.jpeg" alt="imagen del exteriorr de la cabaña">
-            <img class="img" src="multimedia/exteriores/17.jpeg" alt="imagen del exteriorr de la cabaña">
-            <img class="img" src="multimedia/exteriores/18.jpeg" alt="imagen del exteriorr de la cabaña">
-            <img class="img" src="multimedia/exteriores/19.jpeg" alt="imagen del exteriorr de la cabaña">
-            <img class="img" src="multimedia/exteriores/20.jpeg" alt="imagen del exteriorr de la cabaña">
-            <img class="img" src="multimedia/exteriores/21.jpeg" alt="imagen del exteriorr de la cabaña">
-        </div> -->
     </section>
     <footer class="footer">
         <div class="footerContainer"> 

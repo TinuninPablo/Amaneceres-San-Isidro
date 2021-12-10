@@ -1,0 +1,46 @@
+body{
+    background-image: url(https://m.media-amazon.com/images/I/41I-04ZScDL._AC_SY355_.jpg);
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+/*HEADER*/
+.header :not(:first-child){
+    display: flex;
+    justify-content:center;
+    align-items:flex-start;
+    
+} 
+
+.header a {
+    color: white;
+    text-decoration: none;
+    img{
+        position: relative;
+        height:80px;
+        padding: 10px;
+    }
+    & :hover{
+        color: #d3de32;
+        border-bottom: 4px solid #d3de32;
+    }
+}
+
+.headerNav{
+    display: flex;
+    flex-flow: row;
+    ul li {
+        display: inline-block;
+        margin-right: 130px;
+        list-style: none;
+    }
+}
+
+.center{
+    display: flex;
+    justify-content:center;
+    align-items:flex-start; 
+}
+.color{
+    background-color: rgb(197, 152, 67);
+}
