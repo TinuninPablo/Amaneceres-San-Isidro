@@ -32,10 +32,10 @@ p{
     font-size: 20px;
 }
 a{
+    @extend p;
     text-decoration:solid underline;
     color: black;
-    font-weight: bold;
-    font-size: 20px;
+    
 }
 .round{
     border-style: solid;

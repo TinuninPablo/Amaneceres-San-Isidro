@@ -64,15 +64,13 @@ h3 {
   font-weight: 300;
   font-size: 30px; }
 
-p {
+p, a {
   font-weight: bold;
   font-size: 20px; }
 
 a {
   text-decoration: solid underline;
-  color: black;
-  font-weight: bold;
-  font-size: 20px; }
+  color: black; }
 
 .round {
   border-style: solid;
@@ -236,8 +234,7 @@ a {
 
 @media screen and (max-width: 467px) {
   /*UBICACIÓN*/
-  header:disabled
-.map {
+  header:disabled .map {
     display: block;
     width: 90%;
     height: 300px;
