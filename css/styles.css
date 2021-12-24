@@ -1,7 +1,7 @@
 @charset "UTF-8";
 body {
-  background-image: url(https://m.media-amazon.com/images/I/41I-04ZScDL._AC_SY355_.jpg);
-  font-family: 'Nunito', sans-serif; }
+  background-image: url(https://fondosmil.com/fondo/18111.jpg);
+  font-family: 'Vujahday Script', cursive; }
 
 /*HEADER*/
 .header :not(:first-child) {
@@ -54,7 +54,8 @@ h1 {
   overflow: hidden; }
 
 h2 {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Vujahday Script', cursive;
+  /*font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
   text-align: center;
   font-weight: 100;
   font-size: 35px;
@@ -65,8 +66,9 @@ h3 {
   font-size: 30px; }
 
 p, a {
-  font-weight: bold;
-  font-size: 20px; }
+  font-family: 'Vujahday Script';
+  font-size: 30px;
+  margin-left: 3px; }
 
 a {
   text-decoration: solid underline;
