@@ -45,7 +45,14 @@
 
     .contactoImg{
         display: none;
-    
+    }
+    .tamaño{
+        width: 70px;
+        height: 70px;
+    }
+    .numero{
+        text-align: center;
+        font-size: 40px;
     }
     /*ubicación*/
     .map{
